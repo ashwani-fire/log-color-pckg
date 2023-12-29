@@ -1,0 +1,27 @@
+{
+  "name": "log-color-pckg",
+  "version": "1.0.0",
+  "description": "A library to colorify your logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firebee-ai/log-color-pckg.git"
+  },
+  "keywords": [
+    "console.log Colors"
+  ],
+  "author": "Ashwani ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firebee-ai/log-color-pckg/issues"
+  },
+  "homepage": "https://github.com/firebee-ai/log-color-pckg#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
